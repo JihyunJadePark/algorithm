@@ -1,3 +1,5 @@
+# 2071. 평균값 구하기
+
 t = int(input())
 
 for testcase in range(1, t+1):
@@ -8,3 +10,4 @@ for testcase in range(1, t+1):
     answer = round(average)
 
     print(f'#{testcase} {answer}')
+
